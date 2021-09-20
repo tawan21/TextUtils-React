@@ -12,8 +12,8 @@ import TextForm from './components/TextForm'
 // } from "react-router-dom"
 
 function App() {
-  const [mode, setMode] = useState('light')
-  const [alert, setAlert] = useState(null)
+  const [mode, setMode] = useState('light');
+  const [alert, setAlert] = useState(null);
 
   const showAlert = (message, type) => {
     setAlert({
