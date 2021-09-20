@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from 'react/cjs/react.development'
 import './App.css'
 import Alert from './components/Alert'
