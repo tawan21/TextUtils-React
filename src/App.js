@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from 'react/cjs/react.development'
+import { React, useState } from 'react'
 import './App.css'
 import Alert from './components/Alert'
 // import About from './components/About'
@@ -12,8 +11,8 @@ import TextForm from './components/TextForm'
 // } from "react-router-dom"
 
 function App() {
-  const [mode, setMode] = useState('light');
-  const [alert, setAlert] = useState(null);
+  const [mode, setMode] = useState('light')
+  const [alert, setAlert] = useState(null)
 
   const showAlert = (message, type) => {
     setAlert({
@@ -58,7 +57,7 @@ function App() {
               <About mode={mode}/>
             </Route>
             <Route exact path="/"> */}
-              <TextForm showAlert={showAlert} heading="Try TextUtils &mdash the text editing utility" mode={mode} />
+              <TextForm showAlert={showAlert} heading="Try TextUtils &mdash; the text editing utility" mode={mode} />
             {/* </Route>
           </Switch> */}
         </div>
